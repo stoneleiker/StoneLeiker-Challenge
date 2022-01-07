@@ -6,10 +6,12 @@
 ## Analysis of Outcomes Based on Launch Date
 
 ### This analysis was carried out resulting in the chart "Theater Outcomes Vs Launch". In order to get the data needed in a Pivot table the YEAR() function was used to further sort the "Date Created Conversion" column. A pivot table was then created. The "filter" field contained "Years" and "Parent category", the "Columns" field contains "outcomes", the "Rows" field contains "Date Created Conversion", and the "Values" field contains "Count of outcomes". The data set was then further sorted by "Parent category" "theater". 	
-Analysis Based on Goals Chart
+
+## Analysis Based on Goals Chart
 
 ### This analysis was carried out resulting in the chart labeled "Outcomes Based on Goal". Using the function =COUNTIFS(Kickstarter!F:F, "successful",Kickstarter!D:D,"<1000",Kickstarter!R:R, "plays"). I was able to sort the data and count how many "successful", "failed", and "canceled" "plays" kickstarter programs were carrried out. After getting the count of each "plays". The Sum() Function was used to find the Total amount of projects. The percentage of "successful" and "failed" programs was calculated and charted vs the "Goal" ranges.
-Challenges and Difficulties Encountered
+
+## Challenges and Difficulties Encountered
 
 ### Between the two challenges there were a few difficulties. In the first challenge there was a slight amount of difficulty sorting the data by months instead of by year. It was resolved using the "Row Label" Filter. In the second challenge the COUNTIFS() function was difficult to impliment at first using a seperate sheet and multiple perameters. Using slack and google I was able to extract the correct data from the data set.
 
